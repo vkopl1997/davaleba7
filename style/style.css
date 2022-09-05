@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/Rectangle\ 1.png);
+    background-size: 100%;
+    
+} 
+header{
+    width: 100%;
+    display: flex;
+    
+}
+header nav ul{
+    display: flex;
+    width: 592px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 636px;
+
+}
+header li a{
+    background-color: #C4C4C4;
+    padding: 18px 24px;
+    color: black;
+    border-radius: 0 35px 0 35px;
+}
+header li a:hover{
+    background-color: #79B331;
+    color: #f5fbee;
+}
+.timeparent{
+    width: 400px;
+    height: 156px;
+    text-align: center;
+    margin-left: 820px;
+    margin-top: 166px;  
+}
+.timedesc{
+    font-size: 16px;
+    margin: 6px auto;
+    padding: 0;
+}
+.timer{
+    font-size: 36px;
+    margin: 0 auto;
+}
+.wre{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: relative;
+    animation: spin 4s infinite;
+}
+@keyframes spin {
+    0%{top: 0; left: 0;}
+    25%{top: 0;left: 368px;}
+    50%{top: 124px; left: 368px;}
+    75%{top: 124px;left: 0;}
+    100%{top: 0;left: 0;}
+    
+}
+.mshobelixis{
+    width: 1066px;
+    height: 500px;
+    
+    margin-left: 336px;
+    margin-top: 120px;
+    position: relative;
+}
+.gero{
+    width: 1px;
+    height: 430px;
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+}
+.box{
+    width: 50%;
+    height: 70px;
+    position: absolute;  
+    display: flex;
+    word-wrap: break-word;
+    justify-content: space-between;
+}
+p{
+    width: 80%;
+    padding: 16px 10px;
+}
+
+.box1{
+    top: 0;
+    left: 0;
+}
+.box1 p{
+    margin-left: 60px;
+}
+.box2{
+    top: 100px;
+    left: 50%;
+}
+.box3{
+    top: 200px;
+    left: 0;
+}
+.box4{
+    top: 300px;
+    left: 50%;
+}
+
+.fotoli{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 0 35px 0 35px;
+}
+.pirveli{
+    background-color: #79B331;
+
+}
+.fotolirotate{
+    transform:rotate(90deg) ;
+}
+.mwvanetxt{
+    color: #79B331;
+}
