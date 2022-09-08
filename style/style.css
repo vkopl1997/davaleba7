@@ -277,7 +277,7 @@ p{
     .box a{
         padding-top: 70px;
         font-size: 16px;
-        text-align: justify;
+        text-align: justifycl;
        
         
     }
@@ -325,7 +325,6 @@ p{
     }
     
     #hamburger-menu #sidebar-menu {
-        visibilty: hidden;
         position: fixed;
         top: 0;
         left: -250px;
