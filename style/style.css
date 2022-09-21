@@ -169,7 +169,7 @@ p{
         width: 400px;
         height: 156px;
         text-align: center;
-        margin-left: 540px;
+        margin-left: 500px;
         margin-top: 166px;  
     }
     .mshobelixis{
@@ -235,21 +235,21 @@ p{
     body {
         background-image: url(../img/Rectangle\ 1.png);
         background-attachment: cover;
-        background-position: -400px center;
+        background-position:  center;
     }
     nav{width: 100%;}
     
     .timeparent{
-        width: 350px;
+        width: 340px;
         height: 156px;
         text-align: center;
-        margin-left: auto;
+        margin-left: 50px;
         margin-top: 36px;  
     }
     @keyframes spin {
         0%{top: 0; left: 0;}
-        25%{top: 0;left: 318px;}
-        50%{top: 124px; left: 318px;}
+        25%{top: 0;left: 310px;}
+        50%{top: 124px; left: 310px;}
         75%{top: 124px;left: 0;}
         100%{top: 0;left: 0;}
         
@@ -338,5 +338,260 @@ p{
         display: none;
     }
 }
+   /* style magaziebi */
+
+.title{
+    display: block;
+    margin-top: 168px;
+    margin-left: 732px;
+    margin-bottom: 80px;
+    font-size: 24px;
+}
+.containermagazia{
+    width: 420px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    
+    margin-left: 732px;
+}
+.boxforshop1{
+    width: 200px;
+    height: 200px;
+    background-color: #D9D9D9;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.boxforshop1:hover {
+    background-color:#79B331;
+}
+.boxforshop1:hover .shopicon{
+    background-image: url(../img/shopwhite.png);
+    position: absolute;
+    top: 40px;
+} 
+.boxforshop1:hover .shopmap{
+    visibility: visible;
+}
+.shopicon{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/shop\ \(1\)\ 3.png);
+}
+.shopmap{
+    width: 100px;
+    height: 56px;
+    position: absolute;
+    top: 120px;
+    padding: 1px 8px;
+    font-size: 14px;
+    visibility: hidden;
+}
+.shopmap a{
+    color: #ffffff;
+}
+.arrow{
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/placeholder\ 1.png);
+    margin-left: 31px;
+}
+
+
+.titletwo{
+    width: 420px;
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+.titletwo h3{
+    font-size: 23px;
+    text-align: justify ;
+    word-break: break-all;
+}
+.shoponline{
+    width: 420px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    margin-left: 732px;
+}
+.shoponline:hover{
+    background-color: #79B331;
+}
+
+.shoponlineicon{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/laptop\ 1.png);
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-image: url(../img/Rectangle\ 1.png);
+        background-size: cover;  
+        background-position: center; 
+    }
+    nav{
+        width: 100%;
+    }
+    .title, .containermagazia, .shoponline{
+        margin-left: 434px;
+    }
+    .shoponline{
+        width: 70%;
+        margin-left: 80px;
+    }
+    .titletwo{
+        width: 50%;
+        margin-left: 220px;
+    }
+    
+  }
+  @media only screen and (max-width: 414px) {
+    body {
+        background-image: url(../img/Rectangle\ 1.png);
+        background-size: cover;  
+        /* background-position: left;  */
+    }
+    .containermagazia{
+        width: 230px;
+        height: 1000px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 92px;
+    }
+    .boxforshop1{
+        width: 230px;
+        height: 230px;
+    }
+    .title{
+        margin-left: 62px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .titletwo{
+        width: 84%;
+    }
+    .titletwo h3{
+        width: 88%;
+        font-size: 18px;
+    }
+    .shoponline{
+        width: 90%;
+        margin: 5px auto;
+    }
    
-  
+
+  }
+/* shop styles */
+.boxforshop{
+    width: 200px;
+    height: 200px;
+    background-color: #D9D9D9;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.boxforshop:hover{
+    background-color: #79B331;
+}
+.shopcontainer{
+    width: 636px;
+    height: 420px;
+    margin-left: 632px;
+    margin-top: 222px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.shop1{
+    background-image: url(../img/biodegradable\ 1.png);
+}
+.shop2{
+    background-image: url(../img/detox\ 1.png);
+}
+.shop3{
+    background-image: url(../img/keto\ 1.png) ;
+}
+.shop4{
+    background-image: url(../img/cereal\ 1.png) ;
+}
+.shop5{
+    background-image: url(../img/salad\ 1.png);
+}
+.shop6{
+    background-image: url(../img/vitamin\ 1.png);
+}
+.boxforshop:hover .shop1{
+    background-image: url(../img/biodegradable\ \(1\)\ 1.png);
+}
+.boxforshop:hover .shop2{
+    background-image: url(../img/detox\ \(1\)\ 1.png);
+}
+.boxforshop:hover .shop3{
+    background-image: url(../img/keto\ \(1\)\ 1.png);
+}
+.boxforshop:hover .shop4{
+    background-image: url(../img/cereal\ \(1\)\ 1.png);
+}
+.boxforshop:hover .shop5{
+    background-image: url(../img/salad\ \(1\)\ 1.png);
+}
+.boxforshop:hover .shop6{
+    background-image: url(../img/vitamin\ \(1\)\ 1.png) ;
+}
+.content{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 146px;
+    left: 16%;
+    font-size: 14px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+
+}
+.content a{
+    color: #ffffff;
+}
+.boxforshop:hover .content{
+   visibility: visible;
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        background-image: url(../img/Rectangle\ 1.png);
+        background-size: cover;  
+        background-position: center; 
+    }
+    .shopcontainer{
+        width: 420px;
+        height: 644px;
+        margin-left: 510px;
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    body {
+        background-image: url(../img/Rectangle\ 1.png);
+        background-size: cover;  
+        /* background-position: left;  */
+    }
+    .shopcontainer{
+    width: 200px;
+    height: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 92px;
+    margin-top: 70px;
+    }
+  }
